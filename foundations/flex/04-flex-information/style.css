@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -25,17 +27,11 @@ img {
   background: #eee;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-}
-
 .plants {
   display: flex;
   gap: 52px;
   justify-content: center;
+  align-items: baseline;
 }
 
 .plant-box {
@@ -43,7 +39,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 0 0 200px;
+  flex-basis: 200px;
+  gap: 8px;
 }
 
 .text {
