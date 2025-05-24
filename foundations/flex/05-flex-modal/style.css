@@ -85,16 +85,13 @@ button.cancel {
   gap: 12px;
 }
 
-.title-bar {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
 .header {
   font-weight: bold;
   font-size: large;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-content: center;
 }
 
 
